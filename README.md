@@ -28,7 +28,7 @@ I wrote a custom library in C++ to read the rotary encoder connected to some GPI
 The weather data was pulled using the [Dark Sky](https://darksky.net) API. Dark Sky was recently acquired by Apple and the API will stop working at the end of 2022. I used Python to handle the API request, process the data, and write the data into a simple text file that can be easily read by the main C++ program. I used Unix [signals](https://en.wikipedia.org/wiki/Signal_(IPC)) for communication between the Python and C++ processes.
 
 Changes made to the root [crontab](https://en.wikipedia.org/wiki/Cron) for process automation:
-```
+```sh
 # Get VOTD each day at 4:30 AM
 30 4 * * * cd /home/pi/matrix/py/; ./get_verse.py &
 #
