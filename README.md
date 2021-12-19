@@ -17,7 +17,7 @@ Components:
 - [RGB Matrix HAT + RTC](https://www.adafruit.com/product/2345)
 - Rotary Encoder Module (Search eBay or similar)
 - Pushbutton with wires (Salvaged from old PC case)
-- 5V power supply with barrel jack
+- 5V 4A power supply with barrel jack
 - USB Bluetooth Adapter (For PS3 controller experiments)
 - USB Wi-Fi Adapter
 
